@@ -1,0 +1,75 @@
+.quintessential-regular {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body {
+    background-color: #3F2454;
+  }
+  main {
+    background-color: #9C7EB2;
+      Width: 700px;
+    padding: 30px 20px 20px 20px;
+    Margin: 0 auto;
+  }
+  #title {
+    Font-family: "Quintessential", serif;
+    font-size: 48px
+  }
+  p {
+    text-align: left;
+  }
+  fieldset {
+     border: none;
+    padding: 1rem 0;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    font-family: Georgia;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  input, textarea {
+    background-color: white;
+    border: 1px solid purple;
+  }
+  footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+  p, fieldset {
+    font-size:20px
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    border-color: white;
+    min-width: 300px;
+  }
+  

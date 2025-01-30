@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+  </style>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <tile>
+        <h1 id=title>Book Preferences</h1>
+        </title>
+      <p id="description">This survey is to get a better idea of reader preferences as to allow for easier
+   recommendations for reading material, along with a way to expand the library
+        of books to recommend based on user responses. </p>
+      <form method="post" id="survey-form">
+      <fieldset>
+          <label for="Name" id="name-label">Name: <input id="name" name="name" type="text" required placeholder="Name"/></label>
+        <label for="Age" id="number-label">Age: <input id="number" name="Age" type="number" required min="13" max="120" placeholder="Age"/></label>
+        <label for="Email" id="email-label">Email: <input id="email" name="Email" type="email" required placeholder="Email"/></label>
+        <label for="pronouns">Prefered pronouns:
+            <select id="dropdown" name="pronouns">
+              <option value="">(select one)</option>
+              <option value="1">She/her</option>
+              <option value="2">He/him</option>
+              <option value="3">They/them</option>
+              <option value="4">None</option>
+              <option value="5">Any</option>
+              <option value="6">Other</option>
+            </select>
+          </label>
+      </fieldset>
+      <fieldset>
+        <p>Prefered Genere</p>
+        <label for="Nonfiction">
+          <input class="inline" id="Nonfiction" type="checkbox" value="Nonfiction"  name="Nonfiction">Nonfiction</input>
+        </label>
+       <label for="Fantasy">
+          <input class="inline" id="Fantasy" type="checkbox" value="Fantasy"  name="Fantasy">Fantasy</input>
+        </label>
+     <label for="Horror">
+          <input class="inline" id="Horror" type="checkbox" value="Horror"  name="Horror">Horror</input>
+        </label>
+   <label for="Mystery">
+          <input class="inline" id="Mystery" type="checkbox" value="Mystery"  name="Mystery">Mystery</input>
+        </label>
+   <label for="Romance">
+          <input class="inline" id="Romance" type="checkbox" value="Romance" name="Romance">Romance</input>
+        </label>
+   <label for="Science-Fiction">
+          <input class="inline" id="Science-Fiction" type="checkbox" value="Science-fiction" name="Science-Fiction">Science-Fiction</input>
+        </label>
+   <label for="Historical-Fiction">
+          <input class="inline" id="Historical-Fiction" type="checkbox" value="Historical-fiction" name="Historical=Fiction">Historical-Fiction</input>
+        </label>
+   <label for="Thriller">
+          <input class="inline" id="Thriller" type="checkbox" value="Thriller" name="Thriller">Thriller</input>
+        </label> 
+  <label for="Poetry">
+          <input class="inline" id="Poetry" type="checkbox" value="Poetry"  name="Poetry">Poetry</input>
+        </label> 
+  <label for="Graphic Novel">
+          <input class="inline" id="Graphic Novel" type="checkbox" value="Graphic Novel"  name="Graphic Novel">Graphic Novel/Manga</input>
+        </label> 
+  <label for="Adventure">
+          <input class="inline" id="Adventure" type="checkbox" value="Adventure"  name="Adventure">Adventure</input>
+        </label> 
+  <label for="History">
+          <input class="inline" id="History" type="checkbox" value="History"  name="History">History</input>
+        </label> 
+  <label for="Comedy">
+          <input class="inline" id="Comedy" type="checkbox" value="Comedy"  name="Comedy">Comedy</input>
+        </label> 
+  <label for="True-Crime">
+          <input class="inline" id="True-Crime" type="checkbox" value="True-Crime"  name="True-crime">True-Crime</input>
+        </label> 
+  <label for="High-Fantasy">
+          <input class="inline" id="High-Fantasy" type="checkbox" value="High-Fantasy"  name="High-Fantasy">High-Fantasy</input>
+        </label>
+        </fieldset>
+   <fieldset>
+          <legend>Open to joining a book club?</legend>
+          <label for="Yes"><input id="Yes" type="radio" name="Book Club" class="inline" checked value="yes"/> Yes</label>
+          <label for="No"><input id="No" type="radio" name="Book Club" class="inline" value="no"/> No</label>
+        </fieldset>
+  <label for="favorite books">Favorite Books (please incluse genere and author's name):
+            <textarea id="Favorite books" name="Favorite books" rows="3" cols="30" placeholder="Example:Boneshaker-Cherie Priest-Science-fiction"></textarea>
+          </label>
+  </label>
+        <input id="submit" type="submit" value="Submit" />
+  </form>
+  <footer>
+    <p>Created by Lynn P.<p>
+  </footer>
+    </main>
+  </body>
+  </html>
